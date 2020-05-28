@@ -6,6 +6,11 @@ import UserOutput from './UserOutput/UserOutput';
 
 
 class App extends Component {
+    state = {
+        username: 'supermax'
+    }
+
+
     render() {
         return (
             <div className="App">
@@ -22,9 +27,9 @@ class App extends Component {
                     <li>Create Two new component: UserInput and UserOutput</li>
                 </ol>
                 <UserInput />
-                <UserOutput />
-                <UserOutput />
-                <UserOutput />
+                <UserOutput userName={this.state.username}/>
+                <UserOutput userName={this.state.username}/>
+                <UserOutput userName="Max"/>
             </div>
         )
     }
