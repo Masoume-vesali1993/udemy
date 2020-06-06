@@ -19,6 +19,8 @@ class App extends Component {
                     <li>Create Two new component: UserInput and UserOutput</li>
                 </ol>
                 <p>Hi:print value</p>
+                <hr />
+                <input type="text" />
             </div>
         );
     }
