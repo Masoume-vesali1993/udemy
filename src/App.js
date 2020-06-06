@@ -20,7 +20,7 @@ class App extends Component {
                 </ol>
                 <p>Hi:print value</p>
                 <hr />
-                <input type="text" />
+                <input type="text" onChange={} />
             </div>
         );
     }
