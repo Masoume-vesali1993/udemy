@@ -9,8 +9,7 @@ const validation = (props) => {
 
     return (
         <div>
-                <p>{validationMessage}</p> :
-                {/* <p>Text too short</p> */}
+            <p>{validationMessage}</p> :
         </div>
     );
 };
